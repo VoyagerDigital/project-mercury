@@ -1,6 +1,9 @@
-﻿namespace Mercury.Modules.BookKeeping.Application.Transactions.Create;
+﻿using Mercury.Modules.BookKeeping.Domain.Transactions;
+using Mercury.Shared.Application.Messaging;
 
-public class CreateCommand
-{
-    
-}
+namespace Mercury.Modules.BookKeeping.Application.Transactions.Create;
+
+public sealed record CreateCommand(DateOnly Date,
+    string Description,
+    decimal Amount,
+    TransactionType TransactionType) : ICommand;

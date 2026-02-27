@@ -4,10 +4,16 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Mercury.Modules.BookKeeping.Endpoints</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="FastEndpoints" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\Mercury.Shared.Api\Mercury.Shared.Api.csproj" />
+      <ProjectReference Include="..\Mercury.Modules.BookKeeping.Application\Mercury.Modules.BookKeeping.Application.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,13 @@
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\bin\Debug\net10.0\Mercury.Shared.Application.deps.json
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\bin\Debug\net10.0\Mercury.Shared.Application.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\bin\Debug\net10.0\Mercury.Shared.Application.pdb
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.csproj.AssemblyReference.cache
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.AssemblyInfoInputs.cache
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.AssemblyInfo.cs
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.csproj.CoreCompileInputs.cache
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.sourcelink.json
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\refint\Mercury.Shared.Application.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\Mercury.Shared.Application.pdb
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Application\obj\Debug\net10.0\ref\Mercury.Shared.Application.dll

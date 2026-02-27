@@ -1,6 +1,7 @@
 ﻿namespace Mercury.Shared.Application.Messaging;
 
-public interface ICommand
-{
-    
-}
+public interface IBaseCommand;
+
+public interface ICommand : IBaseCommand;
+
+public interface ICommand<TResponse> : IBaseCommand;

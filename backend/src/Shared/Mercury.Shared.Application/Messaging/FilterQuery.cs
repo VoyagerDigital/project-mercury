@@ -1,12 +1,19 @@
 ﻿namespace Mercury.Shared.Application.Messaging;
 
-public abstract class BaseFilterQuery
-{
-    public string? Searchterm { get; set; }
-    public int Page { get; set; } = 1;
-    public int PageSize { get; set; } = 10;
-};
+public abstract record BaseFilterQuery(
+    string? Searchterm,
+    int Page = 1,
+    int PageSize = 10);
 
-public sealed class FilterQuery : BaseFilterQuery, IQuery;
+public abstract record FilterQuery(string? Searchterm,
+    int Page = 1,
+    int PageSize = 10) 
+    : BaseFilterQuery(Searchterm,
+        Page,
+        PageSize), IQuery;
 
-public sealed class IFilterQuery<TResponse> : IBaseFilterQuery, IQuery<TResponse>;
+public abstract record FilterQuery<TResponse>(string? Searchterm,
+    int Page = 1,
+    int PageSize = 10) : BaseFilterQuery(Searchterm,
+        Page,
+        PageSize), IQuery<TResponse>;

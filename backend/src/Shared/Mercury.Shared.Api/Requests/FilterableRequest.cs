@@ -1,3 +1,5 @@
 ﻿namespace MercuryShared.Api.Requests;
 
-public record FilterableRequest();
+public abstract record FilterableRequest(string? Searchterm,
+    int Page = 1,
+    int PageSize = 10);

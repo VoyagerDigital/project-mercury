@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Mercury.App/Mercury.App.csproj" />
+    <Project Path="src/Mercury.AppHost/Mercury.AppHost.csproj" />
+    <Project Path="src/Mercury.DataSeeder/Mercury.DataSeeder.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/BookKeeping/">
+    <Project Path="src/Modules/BookKeeping/Mercury.Modules.BookKeeping.Api/Mercury.Modules.BookKeeping.Api.csproj" />
+    <Project Path="src/Modules/BookKeeping/Mercury.Modules.BookKeeping.Application/Mercury.Modules.BookKeeping.Application.csproj" />
+    <Project Path="src/Modules/BookKeeping/Mercury.Modules.BookKeeping.Domain/Mercury.Modules.BookKeeping.Domain.csproj" />
+    <Project Path="src/Modules/BookKeeping/Mercury.Modules.BookKeeping.Infrastructure/Mercury.Modules.BookKeeping.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Mercury.Shared.Api/Mercury.Shared.Api.csproj" />
+    <Project Path="src/Shared/Mercury.Shared.Application/Mercury.Shared.Application.csproj" />
+    <Project Path="src/Shared/Mercury.Shared.Kernel/Mercury.Shared.Kernel.csproj" />
+  </Folder>
+</Solution>

@@ -1,6 +1,10 @@
-﻿namespace Mercury.Modules.BookKeeping.Application.Transactions.UpdateById;
+﻿using Mercury.Modules.BookKeeping.Domain.Transactions;
+using Mercury.Shared.Application.Messaging;
 
-public class UpdateByIdCommand
-{
-    
-}
+namespace Mercury.Modules.BookKeeping.Application.Transactions.UpdateById;
+
+public sealed record UpdateByIdCommand(int Id,
+    DateOnly Date,
+    string Description,
+    decimal Amount,
+    TransactionType TransactionType) : ICommand;

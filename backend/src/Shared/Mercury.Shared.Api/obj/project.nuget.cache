@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "+ZoB3Z7RVCA=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Shared\\Mercury.Shared.Api\\Mercury.Shared.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fastendpoints\\8.0.0\\fastendpoints.8.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fastendpoints.attributes\\8.0.0\\fastendpoints.attributes.8.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fastendpoints.core\\8.0.0\\fastendpoints.core.8.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fastendpoints.jobqueues\\8.0.0\\fastendpoints.jobqueues.8.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fastendpoints.messaging\\8.0.0\\fastendpoints.messaging.8.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fastendpoints.messaging.core\\8.0.0\\fastendpoints.messaging.core.8.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fluentresults\\4.0.0\\fluentresults.4.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.9\\microsoft.aspnetcore.http.abstractions.2.3.9.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.3\\microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.3\\microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.3\\microsoft.extensions.diagnostics.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.3\\microsoft.extensions.fileproviders.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\10.0.3\\microsoft.extensions.hosting.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.3\\microsoft.extensions.logging.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.options\\10.0.3\\microsoft.extensions.options.10.0.3.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.3\\microsoft.extensions.primitives.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

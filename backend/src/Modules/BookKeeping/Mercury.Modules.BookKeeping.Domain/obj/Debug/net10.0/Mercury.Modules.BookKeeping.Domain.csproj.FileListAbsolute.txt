@@ -1,0 +1,16 @@
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\bin\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.deps.json
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\bin\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\bin\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.pdb
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\bin\Debug\net10.0\Mercury.Shared.Kernel.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\bin\Debug\net10.0\Mercury.Shared.Kernel.pdb
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.csproj.AssemblyReference.cache
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.AssemblyInfoInputs.cache
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.AssemblyInfo.cs
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.sourcelink.json
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury..55EA1C32.Up2Date
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\refint\Mercury.Modules.BookKeeping.Domain.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Domain.pdb
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Domain\obj\Debug\net10.0\ref\Mercury.Modules.BookKeeping.Domain.dll

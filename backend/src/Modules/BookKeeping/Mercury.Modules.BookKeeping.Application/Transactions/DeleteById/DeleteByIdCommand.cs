@@ -1,6 +1,5 @@
-﻿namespace Mercury.Modules.BookKeeping.Application.Transactions.DeleteById;
+﻿using Mercury.Shared.Application.Messaging;
 
-public class DeleteByIdCommand
-{
-    
-}
+namespace Mercury.Modules.BookKeeping.Application.Transactions.DeleteById;
+
+public sealed record DeleteByIdCommand(int Id) : ICommand;

@@ -1,0 +1,178 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Mercury.Shared.Api/1.0.0": {
+        "dependencies": {
+          "FastEndpoints": "8.0.0",
+          "FluentResults": "4.0.0",
+          "Mercury.Shared.Kernel": "1.0.0"
+        },
+        "runtime": {
+          "Mercury.Shared.Api.dll": {}
+        }
+      },
+      "FastEndpoints/8.0.0": {
+        "dependencies": {
+          "FastEndpoints.Attributes": "8.0.0",
+          "FastEndpoints.JobQueues": "8.0.0",
+          "FastEndpoints.Messaging": "8.0.0",
+          "FluentValidation": "12.1.1"
+        },
+        "runtime": {
+          "lib/net10.0/FastEndpoints.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Attributes/8.0.0": {
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Attributes.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Core/8.0.0": {
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.JobQueues/8.0.0": {
+        "dependencies": {
+          "FastEndpoints.Messaging": "8.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/FastEndpoints.JobQueues.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Messaging/8.0.0": {
+        "dependencies": {
+          "FastEndpoints.Core": "8.0.0",
+          "FastEndpoints.Messaging.Core": "8.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Messaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Messaging.Core/8.0.0": {
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Messaging.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FluentResults/4.0.0": {
+        "runtime": {
+          "lib/net9.0/FluentResults.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/12.1.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "Mercury.Shared.Kernel/1.0.0": {
+        "dependencies": {
+          "FluentResults": "4.0.0",
+          "FluentValidation": "12.1.1"
+        },
+        "runtime": {
+          "Mercury.Shared.Kernel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mercury.Shared.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastEndpoints/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n5RW5e6T/wKCEVMpzc2ealQd7omIzBC33MHP6qVVhavRD5XjQTweeNszBUZd9XBRBYZrtc7JaMKJBsVimxUkVw==",
+      "path": "fastendpoints/8.0.0",
+      "hashPath": "fastendpoints.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Attributes/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tWy/cUMie/Yqz1rHUNdjYRhPq57nJybeLL5lWtVyGOdiX4+o7RT5KIMaR2wd5UlbHJTbD2KQFC/T2pKu1iyRDg==",
+      "path": "fastendpoints.attributes/8.0.0",
+      "hashPath": "fastendpoints.attributes.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Core/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lc1mQtopMNUcdkjfVG8kvgw8cX8T4nfRqfDPX7UFyj6uWW/Fiu0fYETx37BsdpjIM4m8z8JijFUgOWaGTHFmWA==",
+      "path": "fastendpoints.core/8.0.0",
+      "hashPath": "fastendpoints.core.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.JobQueues/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31cPmhoelI3YtKTjPbQevHYi7Smv3V719HC9UDxPgPj3Oj4eOvh95uEOIw1vKrPUnEIC4NXIbUGeknOf+2GqFA==",
+      "path": "fastendpoints.jobqueues/8.0.0",
+      "hashPath": "fastendpoints.jobqueues.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Messaging/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EogrDyytDIUvrPSeP+pTW79ISCUH9WhH9mUZt2/7j7bJz2WLyvs38UI1u2dEdm+27w1xRvTlQcKab1OXQF7pOw==",
+      "path": "fastendpoints.messaging/8.0.0",
+      "hashPath": "fastendpoints.messaging.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Messaging.Core/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UXt/yuCsU+cqLeuq7TXXpY4yy0sUykQm0EiCaFI7KJ3TJMFdM6ICjliwN7XLu7wDbC+CH5lAM5njL9xhqV/Ifg==",
+      "path": "fastendpoints.messaging.core/8.0.0",
+      "hashPath": "fastendpoints.messaging.core.8.0.0.nupkg.sha512"
+    },
+    "FluentResults/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wKfdLvDnDVhXlSreU7u/NFNHH6EfoOhAloEID4ePAyk+ZliowKZJvX+aCL4hxhFc9Jj74t62amS4LyOYTjXGCg==",
+      "path": "fluentresults/4.0.0",
+      "hashPath": "fluentresults.4.0.0.nupkg.sha512"
+    },
+    "FluentValidation/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "path": "fluentvalidation/12.1.1",
+      "hashPath": "fluentvalidation.12.1.1.nupkg.sha512"
+    },
+    "Mercury.Shared.Kernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

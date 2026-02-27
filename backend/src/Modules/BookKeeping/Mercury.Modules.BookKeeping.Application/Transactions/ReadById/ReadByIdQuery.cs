@@ -1,6 +1,5 @@
-﻿namespace Mercury.Modules.BookKeeping.Application.Transactions.ReadById;
+﻿using Mercury.Shared.Application.Messaging;
 
-public sealed class ReadByIdQueryHandler : IQuery
-{
-    
-}
+namespace Mercury.Modules.BookKeeping.Application.Transactions.ReadById;
+
+public sealed record ReadByIdQuery(int Id) : IQuery;
