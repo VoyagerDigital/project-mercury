@@ -16,3 +16,5 @@ C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\B
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Infrastructure\obj\Debug\net10.0\refint\Mercury.Modules.BookKeeping.Infrastructure.dll
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Infrastructure\obj\Debug\net10.0\Mercury.Modules.BookKeeping.Infrastructure.pdb
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Infrastructure\obj\Debug\net10.0\ref\Mercury.Modules.BookKeeping.Infrastructure.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Infrastructure\bin\Debug\net10.0\Mercury.Shared.Infrastructure.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Infrastructure\bin\Debug\net10.0\Mercury.Shared.Infrastructure.pdb

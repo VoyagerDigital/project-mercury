@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Mercury.Modules.BookKeeping.Infrastructure.Database.Configurations;
+namespace Mercury.Shared.Infrastructure.Database.Configurations;
 
-internal abstract class EntityConfiguration<T> : IEntityTypeConfiguration<T> 
+public abstract class EntityConfiguration<T> : IEntityTypeConfiguration<T> 
     where T : Entity
 {
     public virtual void Configure(EntityTypeBuilder<T> builder)

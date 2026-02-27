@@ -309,6 +309,21 @@
           "bin/placeholder/Mercury.Modules.BookKeeping.Domain.dll": {}
         }
       },
+      "Mercury.Shared.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Mercury.Shared.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercury.Shared.Infrastructure.dll": {}
+        }
+      },
       "Mercury.Shared.Kernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -788,6 +803,11 @@
       "path": "../Mercury.Modules.BookKeeping.Domain/Mercury.Modules.BookKeeping.Domain.csproj",
       "msbuildProject": "../Mercury.Modules.BookKeeping.Domain/Mercury.Modules.BookKeeping.Domain.csproj"
     },
+    "Mercury.Shared.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/Mercury.Shared.Infrastructure/Mercury.Shared.Infrastructure.csproj",
+      "msbuildProject": "../../../Shared/Mercury.Shared.Infrastructure/Mercury.Shared.Infrastructure.csproj"
+    },
     "Mercury.Shared.Kernel/1.0.0": {
       "type": "project",
       "path": "../../../Shared/Mercury.Shared.Kernel/Mercury.Shared.Kernel.csproj",
@@ -797,6 +817,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Mercury.Modules.BookKeeping.Domain >= 1.0.0",
+      "Mercury.Shared.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 10.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.0"
     ]
@@ -835,6 +856,9 @@
           "projectReferences": {
             "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Modules\\BookKeeping\\Mercury.Modules.BookKeeping.Domain\\Mercury.Modules.BookKeeping.Domain.csproj": {
               "projectPath": "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Modules\\BookKeeping\\Mercury.Modules.BookKeeping.Domain\\Mercury.Modules.BookKeeping.Domain.csproj"
+            },
+            "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Shared\\Mercury.Shared.Infrastructure\\Mercury.Shared.Infrastructure.csproj": {
+              "projectPath": "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Shared\\Mercury.Shared.Infrastructure\\Mercury.Shared.Infrastructure.csproj"
             }
           }
         }

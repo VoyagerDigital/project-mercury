@@ -1,5 +1,6 @@
 ﻿using FastEndpoints;
 using FastEndpoints.Swagger;
+using Mercury.Modules.ActivityManagement.Infrastructure.Database;
 using Mercury.Modules.BookKeeping.Infrastructure.Database;
 using Microsoft.EntityFrameworkCore;
 
@@ -50,8 +51,12 @@ public static class WebApplicationExtensions
         using IServiceScope scope = app.Services.CreateScope();
 
         BookKeepingDbContext bookKeepingDbContext = scope.ServiceProvider.GetRequiredService<BookKeepingDbContext>();
+        ActivityManagementDbContext activityManagementDbContext = scope.ServiceProvider.GetRequiredService<ActivityManagementDbContext>();
         
         bookKeepingDbContext.Database
+            .Migrate();
+
+        activityManagementDbContext.Database
             .Migrate();
     }
 }

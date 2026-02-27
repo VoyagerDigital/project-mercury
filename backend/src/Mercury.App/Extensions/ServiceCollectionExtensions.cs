@@ -1,6 +1,9 @@
 ﻿using FastEndpoints;
 using FastEndpoints.Swagger;
+using Mercury.Modules.ActivityManagement.Endpoints;
 using Mercury.Modules.BookKeeping.Endpoints;
+using ActivityManagementEndpointsDependencyInjection = Mercury.Modules.ActivityManagement.Endpoints.DependencyInjection;
+using BookKeepingEndpointsDependencyInjection = Mercury.Modules.BookKeeping.Endpoints.DependencyInjection;
 
 namespace Mercury.App.Extensions;
 
@@ -18,7 +21,8 @@ public static class ServiceCollectionExtensions
     private static IServiceCollection RegisterApplicationModules(this IServiceCollection services,
         IConfiguration configuration)
     {
-        services.AddBookKeepingModule(configuration);
+        services.AddBookKeepingModule(configuration)
+            .AddActivityManagementModule(configuration);
         
         return services;
     }
@@ -29,7 +33,8 @@ public static class ServiceCollectionExtensions
             {
                 config.Assemblies =
                 [
-                    typeof(DependencyInjection).Assembly
+                    typeof(BookKeepingEndpointsDependencyInjection).Assembly,
+                    typeof(ActivityManagementEndpointsDependencyInjection).Assembly
                 ];
             })
             .SwaggerDocument(o =>

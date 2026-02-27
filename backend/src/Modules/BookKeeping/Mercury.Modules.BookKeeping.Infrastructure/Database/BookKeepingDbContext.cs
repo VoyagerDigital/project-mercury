@@ -1,5 +1,4 @@
 ﻿using Mercury.Modules.BookKeeping.Domain.Transactions;
-using Mercury.Shared.Kernel.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mercury.Modules.BookKeeping.Infrastructure.Database;

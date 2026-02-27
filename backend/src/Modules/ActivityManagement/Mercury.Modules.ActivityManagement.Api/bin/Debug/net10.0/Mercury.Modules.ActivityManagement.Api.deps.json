@@ -1,0 +1,403 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Mercury.Modules.ActivityManagement.Api/1.0.0": {
+        "dependencies": {
+          "FastEndpoints": "8.0.0",
+          "Mercury.Modules.ActivityManagement.Application": "1.0.0",
+          "Mercury.Modules.ActivityManagement.Infrastructure": "1.0.0",
+          "Mercury.Shared.Api": "1.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Api.dll": {}
+        }
+      },
+      "FastEndpoints/8.0.0": {
+        "dependencies": {
+          "FastEndpoints.Attributes": "8.0.0",
+          "FastEndpoints.JobQueues": "8.0.0",
+          "FastEndpoints.Messaging": "8.0.0",
+          "FluentValidation": "12.1.1"
+        },
+        "runtime": {
+          "lib/net10.0/FastEndpoints.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Attributes/8.0.0": {
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Attributes.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Core/8.0.0": {
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.JobQueues/8.0.0": {
+        "dependencies": {
+          "FastEndpoints.Messaging": "8.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/FastEndpoints.JobQueues.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Messaging/8.0.0": {
+        "dependencies": {
+          "FastEndpoints.Core": "8.0.0",
+          "FastEndpoints.Messaging.Core": "8.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Messaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FastEndpoints.Messaging.Core/8.0.0": {
+        "runtime": {
+          "lib/net10.0/FastEndpoints.Messaging.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "FluentResults/4.0.0": {
+        "runtime": {
+          "lib/net9.0/FluentResults.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "FluentValidation/12.1.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.1.1.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/10.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.3"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.326.7603"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.3": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.326.7603"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/10.0.3": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.3"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "10.0.3.0",
+            "fileVersion": "10.0.326.7603"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/10.0.0": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.52411"
+          }
+        }
+      },
+      "Npgsql/10.0.0": {
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.3",
+          "Npgsql": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Scrutor/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyModel": "10.0.0"
+        },
+        "runtime": {
+          "lib/net10.0/Scrutor.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Application/1.0.0": {
+        "dependencies": {
+          "Mercury.Modules.ActivityManagement.Domain": "1.0.0",
+          "Mercury.Modules.ActivityManagement.Infrastructure": "1.0.0",
+          "Mercury.Shared.Application": "1.0.0",
+          "Scrutor": "7.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Domain/1.0.0": {
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Mercury.Modules.ActivityManagement.Domain": "1.0.0",
+          "Mercury.Shared.Infrastructure": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Shared.Api/1.0.0": {
+        "dependencies": {
+          "FastEndpoints": "8.0.0",
+          "FluentResults": "4.0.0",
+          "Mercury.Shared.Kernel": "1.0.0"
+        },
+        "runtime": {
+          "Mercury.Shared.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Shared.Application/1.0.0": {
+        "dependencies": {
+          "FluentResults": "4.0.0"
+        },
+        "runtime": {
+          "Mercury.Shared.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Shared.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.3"
+        },
+        "runtime": {
+          "Mercury.Shared.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Shared.Kernel/1.0.0": {
+        "dependencies": {
+          "FluentResults": "4.0.0",
+          "FluentValidation": "12.1.1"
+        },
+        "runtime": {
+          "Mercury.Shared.Kernel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mercury.Modules.ActivityManagement.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastEndpoints/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n5RW5e6T/wKCEVMpzc2ealQd7omIzBC33MHP6qVVhavRD5XjQTweeNszBUZd9XBRBYZrtc7JaMKJBsVimxUkVw==",
+      "path": "fastendpoints/8.0.0",
+      "hashPath": "fastendpoints.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Attributes/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tWy/cUMie/Yqz1rHUNdjYRhPq57nJybeLL5lWtVyGOdiX4+o7RT5KIMaR2wd5UlbHJTbD2KQFC/T2pKu1iyRDg==",
+      "path": "fastendpoints.attributes/8.0.0",
+      "hashPath": "fastendpoints.attributes.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Core/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Lc1mQtopMNUcdkjfVG8kvgw8cX8T4nfRqfDPX7UFyj6uWW/Fiu0fYETx37BsdpjIM4m8z8JijFUgOWaGTHFmWA==",
+      "path": "fastendpoints.core/8.0.0",
+      "hashPath": "fastendpoints.core.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.JobQueues/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31cPmhoelI3YtKTjPbQevHYi7Smv3V719HC9UDxPgPj3Oj4eOvh95uEOIw1vKrPUnEIC4NXIbUGeknOf+2GqFA==",
+      "path": "fastendpoints.jobqueues/8.0.0",
+      "hashPath": "fastendpoints.jobqueues.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Messaging/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EogrDyytDIUvrPSeP+pTW79ISCUH9WhH9mUZt2/7j7bJz2WLyvs38UI1u2dEdm+27w1xRvTlQcKab1OXQF7pOw==",
+      "path": "fastendpoints.messaging/8.0.0",
+      "hashPath": "fastendpoints.messaging.8.0.0.nupkg.sha512"
+    },
+    "FastEndpoints.Messaging.Core/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UXt/yuCsU+cqLeuq7TXXpY4yy0sUykQm0EiCaFI7KJ3TJMFdM6ICjliwN7XLu7wDbC+CH5lAM5njL9xhqV/Ifg==",
+      "path": "fastendpoints.messaging.core/8.0.0",
+      "hashPath": "fastendpoints.messaging.core.8.0.0.nupkg.sha512"
+    },
+    "FluentResults/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wKfdLvDnDVhXlSreU7u/NFNHH6EfoOhAloEID4ePAyk+ZliowKZJvX+aCL4hxhFc9Jj74t62amS4LyOYTjXGCg==",
+      "path": "fluentresults/4.0.0",
+      "hashPath": "fluentresults.4.0.0.nupkg.sha512"
+    },
+    "FluentValidation/12.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EPpkIe1yh1a0OXyC100oOA8WMbZvqUu5plwhvYcb7oSELfyUZzfxV48BLhvs3kKo4NwG7MGLNgy1RJiYtT8Dpw==",
+      "path": "fluentvalidation/12.1.1",
+      "hashPath": "fluentvalidation.12.1.1.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CDEImwD4A7BseABJMCpLZnhfFjmPY/bHwhhS70elc6gLI/bYUEOhxWt7PmaNGYGhIEzOnStlCy5QcVb+8dod5Q==",
+      "path": "microsoft.entityframeworkcore/10.0.3",
+      "hashPath": "microsoft.entityframeworkcore.10.0.3.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c7Uoz381xnMHNBRB8eHRhGgzUtXbgddlbODhwZRrTSzZWDharp3RkJsFwhxyESbeXhCqmML7VdvjMQ7uu+HreA==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.3",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/10.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pmh60OK9neVr/M0FJwm9hlzm2bD4Kd65SID8E6SP5c90tExNgXwORrlEWl0oGU/ig9ifpNN4PSpIrnHNozlT5w==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.3",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RFYJR7APio/BiqdQunRq6DB+nDB6nc2qhHr77mlvZ0q0BT8PubMXN7XicmfzCbrDE/dzhBnUKBRXLTcqUiZDGg==",
+      "path": "microsoft.extensions.dependencymodel/10.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.10.0.0.nupkg.sha512"
+    },
+    "Npgsql/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xZAYhPOU2rUIFpV48xsqhCx9vXs6Y+0jX2LCoSEfDFYMw9jtAOUk3iQsCnDLrFIv9NT3JGMihn7nnuZsPKqJmA==",
+      "path": "npgsql/10.0.0",
+      "hashPath": "npgsql.10.0.0.nupkg.sha512"
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E2+uSWxSB8LdsUVwPaqRWOcGOP92biry2JEwc0KJMdLJF+aZdczeIdEXVwEyv4nSVMQJH0o8tLhyAMiR6VF0lw==",
+      "path": "npgsql.entityframeworkcore.postgresql/10.0.0",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512"
+    },
+    "Scrutor/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wHWaroody48jnlLoq/REwUltIFLxplXyHTP+sttrc8P7+jkiVqf38afDidJNv4qgD/6zz2NKOYg06xLZ1bG7wQ==",
+      "path": "scrutor/7.0.0",
+      "hashPath": "scrutor.7.0.0.nupkg.sha512"
+    },
+    "Mercury.Modules.ActivityManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Modules.ActivityManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Modules.ActivityManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Shared.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Shared.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Shared.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Shared.Kernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\bin\Debug\net10.0\Mercury.Shared.Infrastructure.deps.json
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\bin\Debug\net10.0\Mercury.Shared.Infrastructure.dll
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\bin\Debug\net10.0\Mercury.Shared.Infrastructure.pdb
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\bin\Debug\net10.0\Mercury.Shared.Kernel.dll
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\bin\Debug\net10.0\Mercury.Shared.Kernel.pdb
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.csproj.AssemblyReference.cache
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.AssemblyInfoInputs.cache
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.AssemblyInfo.cs
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.csproj.CoreCompileInputs.cache
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.sourcelink.json
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury..140425C0.Up2Date
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.dll
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\refint\Mercury.Shared.Infrastructure.dll
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\Mercury.Shared.Infrastructure.pdb
+c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Shared\Mercury.Shared.Infrastructure\obj\Debug\net10.0\ref\Mercury.Shared.Infrastructure.dll

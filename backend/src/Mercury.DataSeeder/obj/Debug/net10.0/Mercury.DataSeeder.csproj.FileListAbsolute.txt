@@ -44,3 +44,5 @@ C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.D
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.DataSeeder\obj\Debug\net10.0\Mercury.DataSeeder.pdb
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.DataSeeder\obj\Debug\net10.0\Mercury.DataSeeder.genruntimeconfig.cache
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.DataSeeder\obj\Debug\net10.0\ref\Mercury.DataSeeder.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.DataSeeder\bin\Debug\net10.0\Mercury.Shared.Infrastructure.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.DataSeeder\bin\Debug\net10.0\Mercury.Shared.Infrastructure.pdb

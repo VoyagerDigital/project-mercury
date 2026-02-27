@@ -1,7 +1,11 @@
-﻿namespace Mercury.Shared.Kernel.Entities;
+﻿using Mercury.Shared.Kernel.Events;
+
+namespace Mercury.Shared.Kernel.Entities;
 
 public abstract class Entity
 {
+    private List<IDomainEvent> _domainEvents = new();
+    
     public int Id { get; protected set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
@@ -77,5 +81,15 @@ public abstract class Entity
     public override string ToString()
     {
         return $"{GetType().Name} - {Id}";
+    }
+    
+    protected void RaiseDomainEvent(IDomainEvent domainEvent)
+    {
+        _domainEvents.Add(domainEvent);
+    }
+    
+    protected void ClearDomainEvents()
+    {
+        _domainEvents.Clear();
     }
 }

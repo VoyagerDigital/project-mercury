@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\Mercury.Shared.Application\Mercury.Shared.Application.csproj" />
+      <ProjectReference Include="..\Mercury.Modules.ActivityManagement.Domain\Mercury.Modules.ActivityManagement.Domain.csproj" />
+      <ProjectReference Include="..\Mercury.Modules.ActivityManagement.Infrastructure\Mercury.Modules.ActivityManagement.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Scrutor" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="AcademicYears\AddActivityById\" />
+      <Folder Include="AcademicYears\DeleteActivityById\" />
+      <Folder Include="AcademicYears\DeleteById\" />
+      <Folder Include="AcademicYears\ReadById\" />
+      <Folder Include="AcademicYears\Read\" />
+      <Folder Include="AcademicYears\UpdateById\" />
+      <Folder Include="Activities\ReadById\" />
+      <Folder Include="Activities\Read\" />
+      <Folder Include="Activities\UpdateById\" />
+    </ItemGroup>
+
+</Project>

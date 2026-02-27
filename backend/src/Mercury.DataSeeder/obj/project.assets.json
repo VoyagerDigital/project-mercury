@@ -455,6 +455,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Mercury.Modules.BookKeeping.Domain": "1.0.0",
+          "Mercury.Shared.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
         },
@@ -463,6 +464,21 @@
         },
         "runtime": {
           "bin/placeholder/Mercury.Modules.BookKeeping.Infrastructure.dll": {}
+        }
+      },
+      "Mercury.Shared.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Mercury.Shared.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercury.Shared.Infrastructure.dll": {}
         }
       },
       "Mercury.Shared.Kernel/1.0.0": {
@@ -1153,6 +1169,11 @@
       "type": "project",
       "path": "../Modules/BookKeeping/Mercury.Modules.BookKeeping.Infrastructure/Mercury.Modules.BookKeeping.Infrastructure.csproj",
       "msbuildProject": "../Modules/BookKeeping/Mercury.Modules.BookKeeping.Infrastructure/Mercury.Modules.BookKeeping.Infrastructure.csproj"
+    },
+    "Mercury.Shared.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Mercury.Shared.Infrastructure/Mercury.Shared.Infrastructure.csproj",
+      "msbuildProject": "../Shared/Mercury.Shared.Infrastructure/Mercury.Shared.Infrastructure.csproj"
     },
     "Mercury.Shared.Kernel/1.0.0": {
       "type": "project",

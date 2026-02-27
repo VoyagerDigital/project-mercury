@@ -297,11 +297,25 @@
       "Mercury.Modules.BookKeeping.Infrastructure/1.0.0": {
         "dependencies": {
           "Mercury.Modules.BookKeeping.Domain": "1.0.0",
+          "Mercury.Shared.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
         },
         "runtime": {
           "Mercury.Modules.BookKeeping.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Shared.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.3"
+        },
+        "runtime": {
+          "Mercury.Shared.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -494,6 +508,11 @@
       "sha512": ""
     },
     "Mercury.Modules.BookKeeping.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Shared.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

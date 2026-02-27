@@ -12,6 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\Mercury.Shared.Infrastructure\Mercury.Shared.Infrastructure.csproj" />
       <ProjectReference Include="..\Mercury.Modules.BookKeeping.Domain\Mercury.Modules.BookKeeping.Domain.csproj" />
     </ItemGroup>
 

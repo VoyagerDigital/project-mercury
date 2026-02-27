@@ -11,7 +11,10 @@ public sealed class Transaction : Entity
     public decimal Amount { get; private set; }
     public TransactionType Type { get; private set; }
 
-    private Transaction(DateOnly date, string description, decimal amount, TransactionType type)
+    private Transaction(DateOnly date,
+        string description,
+        decimal amount,
+        TransactionType type)
     {
         Date = date;
         Description = description;
@@ -19,21 +22,36 @@ public sealed class Transaction : Entity
         Type = type;
     }
     
-    public static Result<Transaction> Create(DateOnly date, string description, decimal amount, TransactionType type)
+    public static Result<Transaction> Create(DateOnly date,
+        string description,
+        decimal amount,
+        TransactionType type)
     {
-        Result validationResult = Validate(date, description, amount, type);
+        Result validationResult = Validate(date,
+            description,
+            amount,
+            type);
         
         if (validationResult.IsFailed)
             return validationResult;
         
-        Transaction transaction = new(date, description, amount, type);
+        Transaction transaction = new(date,
+            description,
+            amount,
+            type);
         
         return Result.Ok(transaction);
     }
 
-    public Result Update(DateOnly date, string description, decimal amount, TransactionType type)
+    public Result Update(DateOnly date,
+        string description,
+        decimal amount,
+        TransactionType type)
     {
-        Result validationResult = Validate(date, description, amount, type);
+        Result validationResult = Validate(date,
+            description,
+            amount,
+            type);
         
         if (validationResult.IsFailed)
             return validationResult;
@@ -46,10 +64,18 @@ public sealed class Transaction : Entity
         return Result.Ok();
     }
 
-    private static Result Validate(DateOnly date, string description, decimal amount, TransactionType type)
+    private static Result Validate(DateOnly date,
+        string description,
+        decimal amount,
+        TransactionType type)
     {
-        Transaction transaction = new(date, description, amount, type);
+        Transaction transaction = new(date,
+            description,
+            amount,
+            type);
+        
         TransactionValidator validator = new();
+        
         return validator.Validate(transaction)
             .ToDomainResult();
     }

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mCN/N8Pr36s=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Modules\\ActivityManagement\\Mercury.Modules.ActivityManagement.Domain\\Mercury.Modules.ActivityManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fluentresults\\4.0.0\\fluentresults.4.0.0.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

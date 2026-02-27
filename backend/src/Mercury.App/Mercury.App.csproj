@@ -17,6 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Modules\ActivityManagement\Mercury.Modules.ActivityManagement.Api\Mercury.Modules.ActivityManagement.Api.csproj" />
       <ProjectReference Include="..\Modules\BookKeeping\Mercury.Modules.BookKeeping.Api\Mercury.Modules.BookKeeping.Api.csproj" />
     </ItemGroup>
 

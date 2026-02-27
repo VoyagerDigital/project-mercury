@@ -10,6 +10,7 @@
         "dependencies": {
           "FastEndpoints": "8.0.1",
           "FastEndpoints.Swagger": "8.0.1",
+          "Mercury.Modules.ActivityManagement.Api": "1.0.0",
           "Mercury.Modules.BookKeeping.Api": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "10.0.3",
           "Microsoft.EntityFrameworkCore.Design": "10.0.3"
@@ -743,6 +744,58 @@
           }
         }
       },
+      "Mercury.Modules.ActivityManagement.Api/1.0.0": {
+        "dependencies": {
+          "FastEndpoints": "8.0.1",
+          "Mercury.Modules.ActivityManagement.Application": "1.0.0",
+          "Mercury.Modules.ActivityManagement.Infrastructure": "1.0.0",
+          "Mercury.Shared.Api": "1.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Application/1.0.0": {
+        "dependencies": {
+          "Mercury.Modules.ActivityManagement.Domain": "1.0.0",
+          "Mercury.Modules.ActivityManagement.Infrastructure": "1.0.0",
+          "Mercury.Shared.Application": "1.0.0",
+          "Scrutor": "7.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Domain/1.0.0": {
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Mercury.Modules.ActivityManagement.Domain": "1.0.0",
+          "Mercury.Shared.Infrastructure": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
+        },
+        "runtime": {
+          "Mercury.Modules.ActivityManagement.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Mercury.Modules.BookKeeping.Api/1.0.0": {
         "dependencies": {
           "FastEndpoints": "8.0.1",
@@ -786,6 +839,7 @@
       "Mercury.Modules.BookKeeping.Infrastructure/1.0.0": {
         "dependencies": {
           "Mercury.Modules.BookKeeping.Domain": "1.0.0",
+          "Mercury.Shared.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
         },
@@ -815,6 +869,19 @@
         },
         "runtime": {
           "Mercury.Shared.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Mercury.Shared.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.3"
+        },
+        "runtime": {
+          "Mercury.Shared.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1176,6 +1243,26 @@
       "path": "yamldotnet/16.3.0",
       "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
     },
+    "Mercury.Modules.ActivityManagement.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Modules.ActivityManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Modules.ActivityManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Modules.ActivityManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Mercury.Modules.BookKeeping.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1202,6 +1289,11 @@
       "sha512": ""
     },
     "Mercury.Shared.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mercury.Shared.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

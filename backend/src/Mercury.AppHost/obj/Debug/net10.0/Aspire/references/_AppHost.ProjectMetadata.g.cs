@@ -17,5 +17,5 @@ public class Mercury_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.AppHost""";
+    public static string ProjectPath => """c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.AppHost""";
 }

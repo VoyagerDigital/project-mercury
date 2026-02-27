@@ -5,6 +5,12 @@
     <Project Path="src/Mercury.DataSeeder/Mercury.DataSeeder.csproj" />
   </Folder>
   <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/ActivityManagement/">
+    <Project Path="src/Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Api/Mercury.Modules.ActivityManagement.Api.csproj" />
+    <Project Path="src/Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Application/Mercury.Modules.ActivityManagement.Application.csproj" />
+    <Project Path="src/Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Domain/Mercury.Modules.ActivityManagement.Domain.csproj" />
+    <Project Path="src/Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Infrastructure/Mercury.Modules.ActivityManagement.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/src/Modules/BookKeeping/">
     <Project Path="src/Modules/BookKeeping/Mercury.Modules.BookKeeping.Api/Mercury.Modules.BookKeeping.Api.csproj" />
     <Project Path="src/Modules/BookKeeping/Mercury.Modules.BookKeeping.Application/Mercury.Modules.BookKeeping.Application.csproj" />
@@ -14,6 +20,7 @@
   <Folder Name="/src/Shared/">
     <Project Path="src/Shared/Mercury.Shared.Api/Mercury.Shared.Api.csproj" />
     <Project Path="src/Shared/Mercury.Shared.Application/Mercury.Shared.Application.csproj" />
+    <Project Path="src/Shared/Mercury.Shared.Infrastructure/Mercury.Shared.Infrastructure.csproj" />
     <Project Path="src/Shared/Mercury.Shared.Kernel/Mercury.Shared.Kernel.csproj" />
   </Folder>
 </Solution>

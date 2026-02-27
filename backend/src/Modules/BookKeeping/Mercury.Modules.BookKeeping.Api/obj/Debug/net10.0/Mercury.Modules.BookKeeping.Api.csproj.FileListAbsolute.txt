@@ -24,3 +24,5 @@ C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\B
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Api\obj\Debug\net10.0\ref\Mercury.Modules.BookKeeping.Api.dll
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Api\bin\Debug\net10.0\Mercury.Shared.Api.dll
 C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Api\bin\Debug\net10.0\Mercury.Shared.Api.pdb
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Api\bin\Debug\net10.0\Mercury.Shared.Infrastructure.dll
+C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Modules\BookKeeping\Mercury.Modules.BookKeeping.Api\bin\Debug\net10.0\Mercury.Shared.Infrastructure.pdb

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mercury.Modules.BookKeeping.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e362f1378b721dd5d5ab144ef1922e3f0bb0e17b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e719784ec057f52c24e3d44e164a9803ed1dae42")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mercury.Modules.BookKeeping.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mercury.Modules.BookKeeping.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

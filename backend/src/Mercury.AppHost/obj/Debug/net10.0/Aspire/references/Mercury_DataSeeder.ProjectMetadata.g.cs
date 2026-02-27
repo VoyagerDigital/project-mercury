@@ -15,7 +15,7 @@ public class Mercury_DataSeeder : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the Mercury_DataSeeder project.
     /// </summary>
-    public string ProjectPath => """C:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.DataSeeder\Mercury.DataSeeder.csproj""";
+    public string ProjectPath => """c:\Users\MichielVanHerreweghe\Repositories\project-mercury\backend\src\Mercury.DataSeeder\Mercury.DataSeeder.csproj""";
 
     /// <summary>
     /// Gets a value indicating whether building the project before running it should be suppressed.

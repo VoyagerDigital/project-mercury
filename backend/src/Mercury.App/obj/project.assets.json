@@ -1035,6 +1035,66 @@
           }
         }
       },
+      "Mercury.Modules.ActivityManagement.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "FastEndpoints": "8.0.0",
+          "Mercury.Modules.ActivityManagement.Application": "1.0.0",
+          "Mercury.Modules.ActivityManagement.Infrastructure": "1.0.0",
+          "Mercury.Shared.Api": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Api.dll": {}
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Mercury.Modules.ActivityManagement.Domain": "1.0.0",
+          "Mercury.Modules.ActivityManagement.Infrastructure": "1.0.0",
+          "Mercury.Shared.Application": "1.0.0",
+          "Scrutor": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Application.dll": {}
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Domain.dll": {}
+        }
+      },
+      "Mercury.Modules.ActivityManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Mercury.Modules.ActivityManagement.Domain": "1.0.0",
+          "Mercury.Shared.Infrastructure": "1.0.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercury.Modules.ActivityManagement.Infrastructure.dll": {}
+        }
+      },
       "Mercury.Modules.BookKeeping.Api/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1086,6 +1146,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Mercury.Modules.BookKeeping.Domain": "1.0.0",
+          "Mercury.Shared.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.0"
         },
@@ -1115,13 +1176,29 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "FluentResults": "4.0.0"
+          "FluentResults": "4.0.0",
+          "Mercury.Shared.Kernel": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Mercury.Shared.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/Mercury.Shared.Application.dll": {}
+        }
+      },
+      "Mercury.Shared.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Mercury.Shared.Kernel": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Mercury.Shared.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mercury.Shared.Infrastructure.dll": {}
         }
       },
       "Mercury.Shared.Kernel/1.0.0": {
@@ -3086,6 +3163,26 @@
         "yamldotnet.nuspec"
       ]
     },
+    "Mercury.Modules.ActivityManagement.Api/1.0.0": {
+      "type": "project",
+      "path": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Api/Mercury.Modules.ActivityManagement.Api.csproj",
+      "msbuildProject": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Api/Mercury.Modules.ActivityManagement.Api.csproj"
+    },
+    "Mercury.Modules.ActivityManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Application/Mercury.Modules.ActivityManagement.Application.csproj",
+      "msbuildProject": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Application/Mercury.Modules.ActivityManagement.Application.csproj"
+    },
+    "Mercury.Modules.ActivityManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Domain/Mercury.Modules.ActivityManagement.Domain.csproj",
+      "msbuildProject": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Domain/Mercury.Modules.ActivityManagement.Domain.csproj"
+    },
+    "Mercury.Modules.ActivityManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Infrastructure/Mercury.Modules.ActivityManagement.Infrastructure.csproj",
+      "msbuildProject": "../Modules/ActivityManagement/Mercury.Modules.ActivityManagement.Infrastructure/Mercury.Modules.ActivityManagement.Infrastructure.csproj"
+    },
     "Mercury.Modules.BookKeeping.Api/1.0.0": {
       "type": "project",
       "path": "../Modules/BookKeeping/Mercury.Modules.BookKeeping.Api/Mercury.Modules.BookKeeping.Api.csproj",
@@ -3116,6 +3213,11 @@
       "path": "../Shared/Mercury.Shared.Application/Mercury.Shared.Application.csproj",
       "msbuildProject": "../Shared/Mercury.Shared.Application/Mercury.Shared.Application.csproj"
     },
+    "Mercury.Shared.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Mercury.Shared.Infrastructure/Mercury.Shared.Infrastructure.csproj",
+      "msbuildProject": "../Shared/Mercury.Shared.Infrastructure/Mercury.Shared.Infrastructure.csproj"
+    },
     "Mercury.Shared.Kernel/1.0.0": {
       "type": "project",
       "path": "../Shared/Mercury.Shared.Kernel/Mercury.Shared.Kernel.csproj",
@@ -3126,6 +3228,7 @@
     "net10.0": [
       "FastEndpoints >= 8.0.1",
       "FastEndpoints.Swagger >= 8.0.1",
+      "Mercury.Modules.ActivityManagement.Api >= 1.0.0",
       "Mercury.Modules.BookKeeping.Api >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.3"
@@ -3163,6 +3266,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Modules\\ActivityManagement\\Mercury.Modules.ActivityManagement.Api\\Mercury.Modules.ActivityManagement.Api.csproj": {
+              "projectPath": "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Modules\\ActivityManagement\\Mercury.Modules.ActivityManagement.Api\\Mercury.Modules.ActivityManagement.Api.csproj"
+            },
             "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Modules\\BookKeeping\\Mercury.Modules.BookKeeping.Api\\Mercury.Modules.BookKeeping.Api.csproj": {
               "projectPath": "c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Modules\\BookKeeping\\Mercury.Modules.BookKeeping.Api\\Mercury.Modules.BookKeeping.Api.csproj"
             }

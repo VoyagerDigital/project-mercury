@@ -17,17 +17,17 @@ using System.Reflection;
     "4\\13.1.2\\tools\\ext\\"))]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", ("C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\aspire.hosting.orchestration.win-x6" +
     "4\\13.1.2\\tools\\ext\\bin\\"))]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", ("C:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Mercury.Ap" +
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", ("c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Mercury.Ap" +
     "pHost"))]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "Mercury.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\MichielVanHerreweghe\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.1.2" +
     "\\tools\\Aspire.Dashboard.exe"))]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", ("C:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Mercury.Ap" +
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", ("c:\\Users\\MichielVanHerreweghe\\Repositories\\project-mercury\\backend\\src\\Mercury.Ap" +
     "pHost\\obj\\"))]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mercury.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e362f1378b721dd5d5ab144ef1922e3f0bb0e17b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e719784ec057f52c24e3d44e164a9803ed1dae42")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mercury.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mercury.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
