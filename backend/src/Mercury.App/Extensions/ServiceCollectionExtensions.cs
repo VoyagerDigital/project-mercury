@@ -9,11 +9,14 @@ namespace Mercury.App.Extensions;
 
 public static class ServiceCollectionExtensions
 {
+    private const string FrontendCorsPolicy = "FrontendCorsPolicy";
+
     public static IServiceCollection RegisterApplicationServices(this IServiceCollection services,
         IConfiguration configuration)
     {
         services.RegisterApplicationModules(configuration)
-            .RegisterFastEndpoints();
+            .RegisterFastEndpoints()
+            .RegisterCors(configuration);
         
         return services;
     }
@@ -48,6 +51,33 @@ public static class ServiceCollectionExtensions
                 };
             });
         
+        return services;
+    }
+
+    private static IServiceCollection RegisterCors(this IServiceCollection services,
+        IConfiguration configuration)
+    {
+        string[]? allowedOrigins = configuration.GetSection("Cors:AllowedOrigins").Get<string[]>();
+
+        services.AddCors(options =>
+        {
+            options.AddPolicy(FrontendCorsPolicy, policy =>
+            {
+                if (allowedOrigins is { Length: > 0 })
+                {
+                    policy.WithOrigins(allowedOrigins)
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+
+                    return;
+                }
+
+                policy.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+            });
+        });
+
         return services;
     }
 }

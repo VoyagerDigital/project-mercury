@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Mercury.Modules.ActivityManagement.Infrastructure.Database;
 
-public class ActivityManagementDbContext(DbContextOptions<ActivityManagementDbContext> options) : DbContext
+public sealed class ActivityManagementDbContext(DbContextOptions<ActivityManagementDbContext> options) : DbContext(options)
 {
     public DbSet<AcademicYear> AcademicYears => Set<AcademicYear>();
     public DbSet<Activity> Activities => Set<Activity>();

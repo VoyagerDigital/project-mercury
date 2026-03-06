@@ -8,10 +8,14 @@ namespace Mercury.App.Extensions;
 
 public static class WebApplicationExtensions
 {
+    private const string FrontendCorsPolicy = "FrontendCorsPolicy";
+
     public static WebApplication ConfigureApplication(this WebApplication app)
     {
-        app.ConfigureFastEndpoints()
-            .UseHttpsRedirection();
+        app.UseHttpsRedirection()
+            .UseCors(FrontendCorsPolicy);
+
+        app.ConfigureFastEndpoints();
 
         if (app.Environment.IsDevelopment())
             app.ConfigureDevelopmentMiddleware();
